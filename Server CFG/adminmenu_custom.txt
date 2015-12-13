@@ -1,0 +1,38 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands" {
+	"Basic commands menu" {
+		"type" 		"list"
+		"title"		"Escolha:"
+		"Restart game" {
+			"cmd"		"mp_restartgame 1"
+			"execute"	"server"
+		}
+		"ADD bot CT" {
+			"cmd"		"bot_add_ct"
+			"execute"	"server"
+		}
+		"ADD bot T" {
+			"cmd"		"bot_add_t"
+			"execute"	"server"
+		}
+		"Kick bots" {
+			"cmd"		"bot_kick"
+			"execute"	"server"
+		}
+		"Remove password" {
+			"cmd"		"sv_password ''"
+			"execute"	"server"
+		}
+		"Default password" {
+			"cmd"		"sv_password 'ismayli'"
+			"execute"	"server"
+		}
+	}
+}

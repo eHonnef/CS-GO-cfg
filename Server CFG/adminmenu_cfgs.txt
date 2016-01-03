@@ -10,5 +10,6 @@ Configs
 	"cfg/treino_bots.cfg"				"Bot trainning"
 	"cfg/treino_dominio.cfg"			"Pseudo-PUG (or 4fun)"
 	"cfg/dm_ffa.cfg"					"Start DM-FFA"
+	"cfg/retakes_start.cfg"				"Start Retake"
 	"cfg/pug.cfg"						"Start a PUG"
 }

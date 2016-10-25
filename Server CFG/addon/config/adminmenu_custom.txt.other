@@ -1,0 +1,18 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands" {
+	"Basic commands menu" {
+		"type" 		"list"
+		"title"		"Escolha:"
+		"Restart game" {
+			"cmd"		"mp_restartgame 1"
+			"execute"	"server"
+		}
+	}
+}
